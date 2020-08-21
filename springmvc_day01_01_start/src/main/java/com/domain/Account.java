@@ -11,6 +11,8 @@ public class Account implements Serializable {
     private Double money;
     private User user;
 
+    int i=0;
+
     public String getUsername() {
         return username;
     }
