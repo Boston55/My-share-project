@@ -1,5 +1,6 @@
 package com.domain;
 
+
 import java.io.Serializable;
 
 /**
@@ -12,6 +13,10 @@ public class Account implements Serializable {
     private User user;
 
     int i=0;
+
+    public void test() {
+        System.out.println(i);
+    }
 
     public String getUsername() {
         return username;
